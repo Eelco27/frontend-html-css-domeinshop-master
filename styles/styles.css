@@ -228,7 +228,7 @@ a:hover {
     background-color: #899CA0;
     color: white;
     border-radius: 15px;
-    padding: 23px;
+    padding: 20px;
     font-size:13px;
 
 }
@@ -237,7 +237,10 @@ a:hover {
 
 /*///////////// 3.5 Footer /////////////*/
 #footer {
- text-align: center;
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
     font-size: 10px;
     padding: 15px 15px
 }
