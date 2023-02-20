@@ -29,7 +29,7 @@ Zorg er eerst voor dat de volgende basis-concepten in orde zijn:
 - [X] Vervang de placeholder-titel door `Domein.shop`, zodat dit bovenaan het tabblad in de browser staat;
 - [X] Koppel het CSS-bestand aan `index.html`;
 - [X] Zet alvast drie semantische elementen (`<header>`-, `<main>`- en `<footer>`) klaar in de body van het HTML-bestand, zodat het duidelijk is hoe de pagina in stukjes verdeeld gaat worden;
-- [ ] Voorzie jouw CSS-bestand van een complete CSS-reset;
+- [X] Voorzie jouw CSS-bestand van een complete CSS-reset;
 - [X] Zet de kleuren (grijs #899CA0 en donkergroen #1C2B32) alvast in commentaar bovenaan het bestand, zodat je ze gemakkelijk kunt kopiëren;
 - [X] Het gebruikte lettertype in het design is _"Poppins"_. Dit font kun je gratis vinden op Google Fonts. Importeer dit in jouw CSS-bestand en stel de font-family voor de gehele webpagina in. 
 
@@ -43,11 +43,11 @@ Zoals je kunt zien staat er een mooie afbeelding in de header. Maar we gaan je a
 - [ ] Gebruik de afbeelding `mountains.jpg` als achtergrond-afbeelding, doormiddel van de `background-image`-property. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) een werkend voorbeeld van deze property. Vervolgens kun je de [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) en de [background-position]( ****)-property gebruiken om de afbeelding netjes de header te laten bedekken.
 
 ### 1.3 Main gedeelte van de pagina
-- [ ] Voor je aan de slag gaat met alle content in het `<main>`-gedeelte van de webpagina, is het belangrijk om het main element eerst even goed in te stellen, zodat alle content op dezelfde afstand van de rand komt te staan. Geef het `<main>`-element een maximale breedte van 1000px en plaats het in het midden met de juiste `margin`;
-- [ ] Hoeveel sections kun jij herkennen in het voorbeeld? Zet deze `<section>`-elementen klaar in het `<main>`-element en zet de bijbehorende titels erbij. Voorzie de `<section>`-elementen van een heldere class-naam, zodat je ze goed uit elkaar kunt houden in de styling. Maak de titels zo op dat ze eruitzien als op het voorbeeld;
-- [ ] Voor nu mag je de eerste section even laten voor wat het is. Voeg in de section daarna ("Wij staan voor je klaar") de afbeelding `callcenter.jpg` in (dit keer wel als `<img>`-element!) en geef deze afgeronde hoeken. _Tip:_ afbeelding te groot? Zet 'm op `100%`, dan wordt hij niet groter dan het element waar hij in staat;
-- [ ] De link in de tekst moet wijzen naar de pagina `team.html`. Geef links een grijze kleur met een lijntje eronder. Dit lijntje moet verdwijnen wanneer de gebruiker er met de muis overheen hovert. _Tip:_ Zorg ervoor dat je de styling van jouw linkjes op globale wijze beschrijft.
-- [ ] Voorzie de button van styling zodat deze er zo uitziet als het voorbeeld. Check of alles er nogsteeds goed uitziet als je de buttontekst ineens heel lang maakt.
+- [X] Voor je aan de slag gaat met alle content in het `<main>`-gedeelte van de webpagina, is het belangrijk om het main element eerst even goed in te stellen, zodat alle content op dezelfde afstand van de rand komt te staan. Geef het `<main>`-element een maximale breedte van 1000px en plaats het in het midden met de juiste `margin`;
+- [X] Hoeveel sections kun jij herkennen in het voorbeeld? Zet deze `<section>`-elementen klaar in het `<main>`-element en zet de bijbehorende titels erbij. Voorzie de `<section>`-elementen van een heldere class-naam, zodat je ze goed uit elkaar kunt houden in de styling. Maak de titels zo op dat ze eruitzien als op het voorbeeld;
+- [X] Voor nu mag je de eerste section even laten voor wat het is. Voeg in de section daarna ("Wij staan voor je klaar") de afbeelding `callcenter.jpg` in (dit keer wel als `<img>`-element!) en geef deze afgeronde hoeken. _Tip:_ afbeelding te groot? Zet 'm op `100%`, dan wordt hij niet groter dan het element waar hij in staat;
+- [X] De link in de tekst moet wijzen naar de pagina `team.html`. Geef links een grijze kleur met een lijntje eronder. Dit lijntje moet verdwijnen wanneer de gebruiker er met de muis overheen hovert. _Tip:_ Zorg ervoor dat je de styling van jouw linkjes op globale wijze beschrijft.
+- [X] Voorzie de button van styling zodat deze er zo uitziet als het voorbeeld. Check of alles er nogsteeds goed uitziet als je de buttontekst ineens heel lang maakt.
 
 ### 1.4 Veelgestelde vragen
 ![Uitklap vragen](./assets/examples/uitklap-vragen.gif)

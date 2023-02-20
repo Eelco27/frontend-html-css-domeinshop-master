@@ -10,54 +10,234 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
-
 /*////////////////////////
     1. Global Styles
-////////////////////////*/
-/*grijs #899CA0 en donkergroen #1C2B32*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
-*{
-    box-sizing: border-box;
 
-}
+ */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+/*grijs #899CA0 en donkergroen #1C2B32*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap')}
+
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
 body {
     font-family: "Poppins", sans-serif;
+    color: #1C2B32;
+
+
+}
+main{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+
 }
 
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+main{
+    max-width: 1000px;
+    margin: auto;
 
-
+}
+h3 {
+    text-align: center;
+    margin: 40px 0 40px 0;
+    font-size: 28px;
+}
 
 /*///////////// 3.1 Header /////////////*/
-.header-content{
-    top: 0;
-    left: 0;
-    height: 80px;
-    width: 100%;
-    background-color: #C84E80;
-    color: white;
+header {
+    background-image: url(../assets/images/mountains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    height: 450px;
+}
 
+
+.header{
+
+    margin: auto;
+    text-align: center;
+    padding: 60px 0 300px 0;
+
+}
+
+.header-text-2{
+    padding: 25px 0 25px 0;
+}
+.website-title{
+    text-align: center;
+    padding-top: 0;
+}
+.header .url {
+    display: inline-block;
+    height: 60px;
+    margin-right: -2px;
+    border-radius: 40px 0 0 40px;
+    border: 2px solid #1C2B32;
+    padding: 18px 85px 13px 15px;
+    background-color: transparent;
+    text-align: center;
+}
+.header .url input {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.header .url input:focus {
+    outline: none;
+}
+
+.header.url input::placeholder {
+    color: #1C2B32;
+    overflow: visible;
+}
+
+.header .check-domain {
+    display: inline-block;
+    height: 60px;
+    border-radius: 0 80px 80px 0;
+    margin-left: -4px;
+    background-color: #1C2B32;
+    border: none;
+    padding: 14px 20px 14px 15px;
+
+}
+.header .check-domain input{
+    color: white;
+    font-size: 14px;
+    background-color: transparent;
+    border:none;
+}
+.header .check-domain input:hover{
+    cursor: pointer;
+}
+.header .check-domain:active{
+    background-color: #314831;
 }
 
 
 /*///////////// 3.2 Testimonial /////////////*/
+.testimonials .content-jane {
+    padding-left: 80px;
+}
+.element-1-box-wrapper {
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 35px 0 35px 0;
+    border-radius: 10px;
 
+}
+.jane-doe{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
 
+}
+
+.fav-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 40px;
+}
+.testimonials .content-john{
+    padding-left: 80px;
+}
+
+.element-2-john{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 35px 0 35px 0;
+    border-radius: 10px;
+}
+.john-smith{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+}
 
 /*///////////// 3.3 Support /////////////*/
+a {
+    color: #899CA0;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.support p {
+    text-align: left;
+    font-size: 15px;
+    padding: 18px 0 18px 0;
+}
+
+.support img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.support button {
+    background-color: #1C2B32;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 23px 25px 23px 25px;
+    font-size: 15px;
+}
+
+.support button:hover{
+    cursor: pointer;
+}
+
+.support button:active{
+    background-color: #314831;
+}
 
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+.faq{
+    width: 100%;
+}
+.faq details > summary{
+    font-size: 15px;
+    padding: 15px 15px 0;
+}
+
+.faq details > p{
+    background-color: #899CA0;
+    color: white;
+    border-radius: 15px;
+    padding: 23px;
+    font-size:13px;
+
+}
+
 
 
 /*///////////// 3.5 Footer /////////////*/
+#footer {
+ text-align: center;
+    font-size: 10px;
+    padding: 15px 15px
+}
